@@ -14,7 +14,7 @@ by both client and service provider.
 Contracts are defined in a separate project. We have defined contracts in the project customer-service-contracts.
 Following key points in the gradle build file ensure that we have all dependencies needed in place.
 
- `classpath "org.springframework.cloud:spring-cloud-contract-gradle-plugin:${verifierVersion}"
+ `classpath "org.springframework.cloud:spring-cloud-contract-gradle-plugin:${verifierVersion}"`
  
  Then apply the following plugins so that contracts are bundled into a stub and published in the repository as 
  part of the build process.
